@@ -18,6 +18,29 @@
     text-align: center;
 }
 canvas{
-    border: 5px solid grey;
-    border-radius: 20px;
+    animation-name: example;
+    animation-duration:4s ;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    20% {box-shadow: 10px 10px 18px red;}
+    40% {box-shadow: 10px 10px 18px yellow;}
+    60% {box-shadow: 10px 10px 18px purple;}
+    80% {box-shadow: 10px 10px 18px magenta;}
+    100% {box-shadow: 10px 10px 18px orange;}
+
+}
+
+video{
+    animation-name: example;
+    animation-duration:4s ;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    20% {box-shadow: 10px 10px 18px red;}
+    40% {box-shadow: 10px 10px 18px yellow;}
+    60% {box-shadow: 10px 10px 18px purple;}
+    80% {box-shadow: 10px 10px 18px magenta;}
+    100% {box-shadow: 10px 10px 18px orange;}
+
 }
