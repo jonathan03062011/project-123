@@ -44,7 +44,6 @@ function draw()
 {
  background('#34a832');
  document.getElementById("square_side").innerHTML="Width and Height of the Square="+difference+"px";
- fill('#3256a8');
- stroke('#3256a8');
- square(noseX,noseY,difference);
+text('jonathan', noseX, noseY);
+fill('#34a832');
 }
